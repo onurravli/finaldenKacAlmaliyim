@@ -1,0 +1,70 @@
+/* Onur RAVLI - 2021 */
+form, button, input, p
+{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+}
+button
+{
+	margin-bottom: 10px;
+}
+
+/*@keyframes bgcolor {
+    0% {
+        background-color: #f54242
+    }
+
+    30% {
+        background-color: #f2f542
+    }
+
+    60% {
+        background-color: #42f593
+    }
+
+    90% {
+        background-color: #42aaf5
+    }
+
+    100% {
+        background-color: #da42f5
+    }
+}*/
+
+body
+{
+	
+	background-size:cover;
+	background-image: url(https://onurravli.github.io/img/bg.jpg);
+	
+	/*-webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;*/
+}
+input
+{
+	margin-left: 10px;
+}
+h1
+{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+	margin-bottom: -30px;
+	margin-top: 50px;
+}
+.ii
+{
+	margin-top: 15px;
+	margin-bottom: -5px;
+	font-size: 17px;
+	font-family: helvetica;
+	text-align: center;
+}
+.formlar
+{
+	margin-top: 50px;
+}
+

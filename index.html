@@ -1,0 +1,44 @@
+<!--Onur RAVLI - 2021-->
+<html>
+<head>
+<title>Finalden Kaç Almalıyım?</title>
+<link rel="stylesheet" href="stil.css">
+<script src="hesapla.js"></script>
+</head>
+<body>
+<center>
+<div class="cont">
+<h1>VİZE NOTUNA GÖRE FİNAL HESAPLAMA PORTALI v.1 :D</h1>
+<div class="formlar">
+<form name="vize" method="post">
+VİZE 1: <input type="text" id="vizeIn" name="vize1">
+<br>
+<br>
+VİZE 2:  <input type="text" id="vizeIn2" name="vize2">
+<br><div class="ii"><i>(Yoksa boş bırakın.)</i></div>
+</form>
+</div>
+<script>
+var input1 = document.getElementById("vizeIn");
+input1.addEventListener("keyup", function(event) 
+{
+  if (event.keyCode === 13)
+  {
+   document.getElementById("tikla").click();
+  }
+});
+
+var input2 = document.getElementById("vizeIn2");
+input2.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13)
+  {
+   document.getElementById("tikla").click();
+  }
+});
+
+</script>
+<button type="button" id="tikla" onclick="kontrol();">TIKLA</button>
+<p id="final"></p>
+</div></center>
+</body>
+</html>
