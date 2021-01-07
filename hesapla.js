@@ -4,12 +4,12 @@ function kontrol()
 
 var vize1 = document.forms["vize"]["vize1"].value;
 var vize2 = document.forms["vize"]["vize2"].value;
-if(vize1 == "100"){alert("OOO TEBRÝKLER :D");}
+if(vize1 == "100"){alert("OOO TEBRÄ°KLER :D");}
 if(vize1 != "")
 {
 text = text + "<br><br><br>";
 				if(isNaN(vize1) || isNaN(vize2)) 
-				{alert("Sayý giriniz.");}
+				{alert("SayÄ± giriniz.");}
 				else if(typeof +vize1 == "number" && typeof +vize2 == "number")
 				{			
 
@@ -19,7 +19,7 @@ text = text + "<br><br><br>";
 				var text="";
 				for(mfn = 0;mfn<=100;mfn++)
 				{
-				text = text + "Finalden " + mfn + " alýrsan, ortalamalan " + (+mfn*6/10 + (+vize1)*4/10) +" olur." + "<br>";
+				text = text + "Finalden " + mfn + " alÄ±rsan, ortalamalan " + (+mfn*6/10 + (+vize1)*4/10) +" olur." + "<br>";
 				}
 				document.getElementById("final").innerHTML = text;
 				}
@@ -30,15 +30,15 @@ text = text + "<br><br><br>";
 				var text="";
 				for(mfn = 0;mfn<=100;mfn++)
 				{
-				text = text + "Finalden " + mfn + " alýrsan, ortalamalan " + (+mfn*6/10 + (+vizeOrt)*4/10) +" olur." + "<br>";
+				text = text + "Finalden " + mfn + " alÄ±rsan, ortalamalan " + (+mfn*6/10 + (+vizeOrt)*4/10) +" olur." + "<br>";
 				}
 				document.getElementById("final").innerHTML = text;
 				}
 				}
-				else{alert("Sayý giriniz");}
+				else{alert("SayÄ± giriniz");}
 }
 else
 {
-alert("1. vize boþ býrakýlamaz.");
+alert("1. vize bo? bÄ±rakÄ±lamaz.");
 }
 }
